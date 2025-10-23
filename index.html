@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Test your media queries</title>
+
+    <meta name="description" content="Test your media queries support of your device" />
+    <meta name="keywords" content="Media-queries, device, responsive" />
+
+    <meta name="robots" content="index, follow" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <link rel="stylesheet" href="./styles.css">
+  </head>  
+  <body>  
+    <h1>MEDIA QUERY TESTER</h1>
+    
+
+    <div class="device">
+      <h2>
+        YOUR DEVICE:
+      </h2>
+  
+      <div class="wrapper">
+        <div class="row">
+          <div class="option hover hover-none"><span>@media(hover: none)</span></div>
+          <div class="option hover hover-hover"><span>@media(hover: hover)</span></div>
+        </div>
+        <div class="row">
+          <div class="option hover any-hover-none"><span>@media(any-hover: none)</span></div>
+          <div class="option hover any-hover-hover"><span>@media(any-hover: hover)</span></div>
+        </div>
+        <div class="row">
+          <div class="option hover pointer-none"><span>@media(pointer: none)</span></div>
+          <div class="option hover pointer-fine"><span>@media(pointer: fine)</span></div>
+          <div class="option hover pointer-coarse"><span>@media(pointer: coarse)</span></div>
+        </div>
+        <div class="row">
+          <div class="option hover any-pointer-none"><span>@media(any-pointer: none)</span></div>
+          <div class="option hover any-pointer-fine"><span>@media(any-pointer: fine)</span></div>
+          <div class="option hover any-pointer-coarse"><span>@media(any-pointer: coarse)</span></div>
+        </div>
+      </div>   
+    </div>
+    
+    <div class="device">
+      <h2>
+        USUAL FOR LAPTOPS:
+      </h2>
+  
+      <div class="wrapper">
+        <div class="row">
+          <div class="option"><span>@media(hover: none)</span></div>
+          <div class="option enabled"><span>@media(hover: hover)</span></div>
+        </div>
+        <div class="row">
+          <div class="option"><span>@media(any-hover: none)</span></div>
+          <div class="option enabled"><span>@media(any-hover: hover)</span></div>
+        </div>
+        <div class="row">
+          <div class="option"><span>@media(pointer: none)</span></div>
+          <div class="option enabled"><span>@media(pointer: fine)</span></div>
+          <div class="option"><span>@media(pointer: coarse)</span></div>
+        </div>
+        <div class="row">
+          <div class="option"><span>@media(any-pointer: none)</span></div>
+          <div class="option enabled"><span>@media(any-pointer: fine)</span></div>
+          <div class="option"><span>@media(any-pointer: coarse)</span></div>
+        </div>
+      </div>   
+    </div>
+    <div class="device">
+      <h2>
+        USUAL FOR TOUCHSCREEN LAPTOPS:
+      </h2>
+  
+      <div class="wrapper">
+        <div class="row">
+          <div class="option"><span>@media(hover: none)</span></div>
+          <div class="option enabled"><span>@media(hover: hover)</span></div>
+        </div>
+        <div class="row">
+          <div class="option"><span>@media(any-hover: none)</span></div>
+          <div class="option enabled"><span>@media(any-hover: hover)</span></div>
+        </div>
+        <div class="row">
+          <div class="option"><span>@media(pointer: none)</span></div>
+          <div class="option enabled"><span>@media(pointer: fine)</span></div>
+          <div class="option"><span>@media(pointer: coarse)</span></div>
+        </div>
+        <div class="row">
+          <div class="option"><span>@media(any-pointer: none)</span></div>
+          <div class="option enabled"><span>@media(any-pointer: fine)</span></div>
+          <div class="option enabled"><span>@media(any-pointer: coarse)</span></div>
+        </div>
+      </div>   
+    </div>
+    <div class="device">
+      <h2>
+        USUAL FOR IPHONES AND IPADS:
+      </h2>
+  
+      <div class="wrapper">
+        <div class="row">
+          <div class="option enabled"><span>@media(hover: none)</span></div>
+          <div class="option"><span>@media(hover: hover)</span></div>
+        </div>
+        <div class="row">
+          <div class="option enabled"><span>@media(any-hover: none)</span></div>
+          <div class="option"><span>@media(any-hover: hover)</span></div>
+        </div>
+        <div class="row">
+          <div class="option"><span>@media(pointer: none)</span></div>
+          <div class="option"><span>@media(pointer: fine)</span></div>
+          <div class="option enabled"><span>@media(pointer: coarse)</span></div>
+        </div>
+        <div class="row">
+          <div class="option"><span>@media(any-pointer: none)</span></div>
+          <div class="option"><span>@media(any-pointer: fine)</span></div>
+          <div class="option enabled"><span>@media(any-pointer: coarse)</span></div>
+        </div>
+      </div>   
+    </div>
+    <div class="device">
+      <h2>
+        USUAL FOR ANDROID* PHONES AND TABLETS:
+      </h2>
+      <h3>
+        although some Android devices are incapable of hovering
+      </h3>
+  
+      <div class="wrapper">
+        <div class="row">
+          <div class="option"><span>@media(hover: none)</span></div>
+          <div class="option enabled"><span>@media(hover: hover)</span></div>
+        </div>
+        <div class="row">
+          <div class="option"><span>@media(any-hover: none)</span></div>
+          <div class="option enabled"><span>@media(any-hover: hover)</span></div>
+        </div>
+        <div class="row">
+          <div class="option"><span>@media(pointer: none)</span></div>
+          <div class="option"><span>@media(pointer: fine)</span></div>
+          <div class="option enabled"><span>@media(pointer: coarse)</span></div>
+        </div>
+        <div class="row">
+          <div class="option"><span>@media(any-pointer: none)</span></div>
+          <div class="option enabled"><span>@media(any-pointer: fine)</span></div>
+          <div class="option enabled"><span>@media(any-pointer: coarse)</span></div>
+        </div>
+      </div>   
+    </div>
+
+    <footer>
+        <p>This page is a copy from former page https://hover-pointer-media-query.glitch.me/. Thanks to anyone created it.</p>
+    </footer>
+  </body>
+</html>
